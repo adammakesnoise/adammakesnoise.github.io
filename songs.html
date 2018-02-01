@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+<title>Song list</title>
+    <head><link rel="stylesheet" type="text/css" href="noise.css"></head>
+<body>
+
+    <div id="top">
+        <div id="inner">
+            <h1>Song List</h1>
+ 
+<p>Click Song or Artist to sort the table</p>
+<br/>
+        <a href="http://www.adammakesnoise.com">Home</a>
+            <br/>
+        </div></div>
+<div id="content">
+<div id="songs">
+<table border="1" id="myTable">
+  <tr>
+   <!--When a header is clicked, run the sortTable function, with a parameter, 0 for sorting by names, 1 for sorting by country:-->  
+    <th onclick="sortTable(0)"><button>Song</button></th>
+      <th onclick="sortTable(1)"><button>Artist</button></th>
+  </tr>
+  <tr><td>	7 Years	</td><td>	Lukas Graham	</td></tr>
+<tr><td>	About a Girl	</td><td>	Nirvana	</td></tr>
+<tr><td>	Addicted To Love	</td><td>	Robert Palmer	</td></tr>
+<tr><td>	After the Rain	</td><td>	Nelson	</td></tr>
+<tr><td>	Against the Wind	</td><td>	Bob Steger	</td></tr>
+<tr><td>	Ain’t No Sunshine	</td><td>	Bill Withers	</td></tr>
+<tr><td>	Albatross	</td><td>	Corrosion of Conformity	</td></tr>
+<tr><td>	All About that Bass	</td><td>	Meghan Trainor	</td></tr>
+<tr><td>	All Apologies	</td><td>	Nirvana	</td></tr>
+<tr><td>	All Over You	</td><td>	Live	</td></tr>
+<tr><td>	All That She Wants	</td><td>	Ace of Base	</td></tr>
+<tr><td>	American Girl	</td><td>	Tom Petty	</td></tr>
+<tr><td>	American Pie	</td><td>	Don McLean	</td></tr>
+<tr><td>	Angel	</td><td>	Aerosmith	</td></tr>
+<tr><td>	Angels of the Silence	</td><td>	Counting Crows 	</td></tr>
+<tr><td>	Ants Marching	</td><td>	Dave Matthews	</td></tr>
+<tr><td>	Asshole	</td><td>	Dennis Leary	</td></tr>
+<tr><td>	Auld Lang Syne	</td><td>	Traditional	</td></tr>
+<tr><td>	Barely Breathing	</td><td>	Duncan Sheik	</td></tr>
+<tr><td>	Bartender	</td><td>	Rehab	</td></tr>
+<tr><td>	Big Empty	</td><td>	Stone Temple Pilots 	</td></tr>
+<tr><td>	Black	</td><td>	Pearl Jam	</td></tr>
+<tr><td>	Black Hole Sun	</td><td>	Soundgarden	</td></tr>
+<tr><td>	Black or White	</td><td>	Michael Jackson	</td></tr>
+<tr><td>	Blank Space	</td><td>	Taylor Swift	</td></tr>
+<tr><td>	Born To Run	</td><td>	Bruce Springsteen 	</td></tr>
+<tr><td>	Boss DJ	</td><td>	Sublime	</td></tr>
+<tr><td>	Breaking the Girl	</td><td>	Red Hot Chili Peppers	</td></tr>
+<tr><td>	Bubble Toes	</td><td>	Jack Johnson	</td></tr>
+<tr><td>	Build me up Buttercup	</td><td>	The Foundations	</td></tr>
+<tr><td>	Bullet with Butterfly Wings	</td><td>	Smashing Pumpkins	</td></tr>
+<tr><td>	Bus Stop	</td><td>	The Hollies	</td></tr>
+<tr><td>	Can't Change Me	</td><td>	Chris Cornell	</td></tr>
+<tr><td>	Can't You See	</td><td>	Marshall Tucker Band	</td></tr>
+<tr><td>	Careless Whisper	</td><td>	George Michael 	</td></tr>
+<tr><td>	Casey Jones	</td><td>	Grateful Dead	</td></tr>
+<tr><td>	Champagne Supernove	</td><td>	Oasis	</td></tr>
+<tr><td>	Chicken Fried	</td><td>	Zac Brown Band 	</td></tr>
+<tr><td>	Closer to Home (I'm Your Captain)	</td><td>	Grand Funk Railroad	</td></tr>
+<tr><td>	Clumsy	</td><td>	Our Lady Peace 	</td></tr>
+<tr><td>	Come As You Are	</td><td>	Nirvana	</td></tr>
+<tr><td>	Comedown	</td><td>	Bush	</td></tr>
+<tr><td>	Counting Blue Cars	</td><td>	Dishwalla	</td></tr>
+<tr><td>	Cover Me	</td><td>	Candlebox	</td></tr>
+<tr><td>	Crash Into Me	</td><td>	Dave Matthews Band	</td></tr>
+<tr><td>	Crazy	</td><td>	Gnarls Barkley	</td></tr>
+<tr><td>	Crazy	</td><td>	Seal	</td></tr>
+<tr><td>	Creep	</td><td>	Radiohead	</td></tr>
+<tr><td>	Cruise (Remix)	</td><td>	Florida Georgia Line ft. Nelly	</td></tr>
+<tr><td>	Cryin'	</td><td>	Aerosmith	</td></tr>
+<tr><td>	Cult of Personality	</td><td>	In Living Color	</td></tr>
+<tr><td>	Dance with Somebody	</td><td>	Whitney Houston	</td></tr>
+<tr><td>	Dancin' Days	</td><td>	Led Zepplin	</td></tr>
+<tr><td>	Days of the New	</td><td>	Touch Peel and Stand	</td></tr>
+<tr><td>	Doin’ Time	</td><td>	Sublime	</td></tr>
+<tr><td>	Don't	</td><td>	Ed Sheeran	</td></tr>
+<tr><td>	Don’t You Forget About Me	</td><td>	Simple Minds	</td></tr>
+<tr><td>	Downeaster Alexa	</td><td>	BIlly Joel	</td></tr>
+<tr><td>	Drive	</td><td>	Incubus	</td></tr>
+<tr><td>	Dumb	</td><td>	Nirvana copy	</td></tr>
+<tr><td>	Elderly Woman	</td><td>	Pearl Jam	</td></tr>
+<tr><td>	Eleanor Rigby	</td><td>	Beatles	</td></tr>
+<tr><td>	Everlong	</td><td>	Foo Fighters	</td></tr>
+<tr><td>	Every Little Thing She Does is Magic	</td><td>	Ra	</td></tr>
+<tr><td>	Every Rose has it’s Thorn	</td><td>	Poison	</td></tr>
+<tr><td>	Everybody Wants to Rule the World	</td><td>	Tears for Fears	</td></tr>
+<tr><td>	Faith	</td><td>	George Michael 	</td></tr>
+<tr><td>	Fantastic Voyage	</td><td>	Coolio	</td></tr>
+<tr><td>	Far Behind	</td><td>	Candlebox	</td></tr>
+<tr><td>	Fast Car	</td><td>	Tracy Chapman	</td></tr>
+<tr><td>	Flagpole Sitta	</td><td>	Harvey Danger	</td></tr>
+<tr><td>	Folsom Prison	</td><td>	Johnny Cash	</td></tr>
+<tr><td>	Forty-Six & Two	</td><td>	Tool	</td></tr>
+<tr><td>	Freedom 90	</td><td>	George Michael	</td></tr>
+<tr><td>	Freshmen	</td><td>	The Verve Pipe 	</td></tr>
+<tr><td>	Friday I’m In Love	</td><td>	The Cure	</td></tr>
+<tr><td>	Fuck Her Gently	</td><td>	Tenacious D	</td></tr>
+<tr><td>	Good Riddance	</td><td>	Green Day	</td></tr>
+<tr><td>	Got Me Wrong	</td><td>	Alice in Chains	</td></tr>
+<tr><td>	Happy	</td><td>	Pharrell	</td></tr>
+<tr><td>	Happy Xmas	</td><td>	War is Over	</td></tr>
+<tr><td>	Have You Seen Mary	</td><td>	Sponge 	</td></tr>
+<tr><td>	Heart Shaped Box	</td><td>	Nirvana	</td></tr>
+<tr><td>	Heroes	</td><td>	David Bowie 	</td></tr>
+<tr><td>	Hey 19	</td><td>	Steely Dan	</td></tr>
+<tr><td>	Hey Jealousy	</td><td>	Gin Blossoms	</td></tr>
+<tr><td>	Hey Ya	</td><td>	Outkast	</td></tr>
+<tr><td>	High and Dry	</td><td>	Radiohead	</td></tr>
+<tr><td>	Hold Me Now	</td><td>	Thompson Twins	</td></tr>
+<tr><td>	Hotel	</td><td>	Cassidy ft. R. Kelly 	</td></tr>
+<tr><td>	Hotel California	</td><td>	The Eagles 	</td></tr>
+<tr><td>	I believe in Father Christmas	</td><td>	ELP	</td></tr>
+<tr><td>	I Can't Feel My Face	</td><td>	The Weekend	</td></tr>
+<tr><td>	I come from the Water	</td><td>	Toadies	</td></tr>
+<tr><td>	I Don't Dance	</td><td>	Lee Brice	</td></tr>
+<tr><td>	I Just Died in Your Arms Tonight	</td><td>	Cutting Crew	</td></tr>
+<tr><td>	I Need You Tonight	</td><td>	INXS	</td></tr>
+<tr><td>	I Stay Away	</td><td>	Alice in Chains	</td></tr>
+<tr><td>	I Took a Pill in Ibiza	</td><td>	Mike Posner	</td></tr>
+<tr><td>	I Wanna Love You	</td><td>	Akon	</td></tr>
+<tr><td>	I’ll Be	</td><td>	Edwin McCain	</td></tr>
+<tr><td>	I’m Only Happy When it Rains	</td><td>	Garbage	</td></tr>
+<tr><td>	If you Could Only See	</td><td>	Tonic	</td></tr>
+<tr><td>	Ignition Remix	</td><td>	R. Kelly	</td></tr>
+<tr><td>	Inside Out	</td><td>	Eve 6	</td></tr>
+<tr><td>	Interstate Love Song	</td><td>	Stone Temple Pilots	</td></tr>
+<tr><td>	Is this love	</td><td>	Bob Marley	</td></tr>
+<tr><td>	It's the End of the World as we Know it	</td><td>	REM	</td></tr>
+<tr><td>	Jane Says	</td><td>	Jane's Addiction	</td></tr>
+<tr><td>	Jenny (867-5309)	</td><td>	Tommy Tutone	</td></tr>
+<tr><td>	Jesus Don’t Want Me For a Sunbeam	</td><td>	Nirvana	</td></tr>
+<tr><td>	Just a Friend	</td><td>	Biz Markie	</td></tr>
+<tr><td>	Karma Police	</td><td>	Radiohead	</td></tr>
+<tr><td>	Killing in the Name	</td><td>	Rage Against the Machine	</td></tr>
+<tr><td>	Kiss Off	</td><td>	The Violent Femmes	</td></tr>
+<tr><td>	Knockin' on Heaven's Door	</td><td>	Guns N Roses	</td></tr>
+<tr><td>	Kryptonite	</td><td>	3 Doors Down	</td></tr>
+<tr><td>	Laid	</td><td>	James	</td></tr>
+<tr><td>	Lake of Fire	</td><td>	Nirvana	</td></tr>
+<tr><td>	Let’s Dance	</td><td>	David Bowie	</td></tr>
+<tr><td>	Levon	</td><td>	Elton John	</td></tr>
+<tr><td>	Life on Mars	</td><td>	Davide Bowie	</td></tr>
+<tr><td>	Lightning Crashes	</td><td>	Live	</td></tr>
+<tr><td>	Like a Stone	</td><td>	Audioslave	</td></tr>
+<tr><td>	Locomotive Breath	</td><td>	Jethro Tull	</td></tr>
+<tr><td>	Lola	</td><td>	The Kinks	</td></tr>
+<tr><td>	Long Way Down	</td><td>	Goo Goo Dolls	</td></tr>
+<tr><td>	Love Me Two Times	</td><td>	The Doors	</td></tr>
+<tr><td>	Love the one You’re With	</td><td>	Stephen Stills	</td></tr>
+<tr><td>	Low	</td><td>	Cracker	</td></tr>
+<tr><td>	Magic Carpet Ride	</td><td>	Steppenwolf	</td></tr>
+<tr><td>	Man Who Sold The World	</td><td>	Nirvana	</td></tr>
+<tr><td>	Man Who Sold The World	</td><td>	David Bowie	</td></tr>
+<tr><td>	Me and My Guitar	</td><td>	Tep No	</td></tr>
+<tr><td>	Melissa	</td><td>	Allman Brothers	</td></tr>
+<tr><td>	Molly	</td><td>	Sponge	</td></tr>
+<tr><td>	Moondance	</td><td>	Van Morrison	</td></tr>
+<tr><td>	Mother	</td><td>	Danzig	</td></tr>
+<tr><td>	Mr. Brightside	</td><td>	The Killers	</td></tr>
+<tr><td>	Mr. Jones	</td><td>	Counting Crows	</td></tr>
+<tr><td>	My Heart Will Go On	</td><td>	Celine Dion	</td></tr>
+<tr><td>	My Way	</td><td>	Sinatra 	</td></tr>
+<tr><td>	New Age Girl	</td><td>	Deadeye Dick	</td></tr>
+<tr><td>	No Scrubs	</td><td>	TLC (F#m) 	</td></tr>
+<tr><td>	Not an Addict	</td><td>	K’s Choice 	</td></tr>
+<tr><td>	Nothing Compares 2 U	</td><td>	Prince 	</td></tr>
+<tr><td>	Oh Holy Night	</td><td>	Christmas	</td></tr>
+<tr><td>	Oh, Me	</td><td>	Nirvana	</td></tr>
+<tr><td>	On a Plain	</td><td>	Nirvana	</td></tr>
+<tr><td>	One Dance	</td><td>	Drake	</td></tr>
+<tr><td>	Open Up	</td><td>	Dispatch 	</td></tr>
+<tr><td>	Outside	</td><td>	Staind	</td></tr>
+<tr><td>	Owner of a Lonely Heart	</td><td>	Yes	</td></tr>
+<tr><td>	Paparazzi	</td><td>	Lady Ga Ga	</td></tr>
+<tr><td>	Paradise by the Dashboard Light	</td><td>	Meatloaf	</td></tr>
+<tr><td>	Penny Lane	</td><td>	Beatles	</td></tr>
+<tr><td>	Pennyroal Tea	</td><td>	Nirvana	</td></tr>
+<tr><td>	Piano Man	</td><td>	Billy Joel	</td></tr>
+<tr><td>	Pictures of You	</td><td>	The Cure	</td></tr>
+<tr><td>	Plateau	</td><td>	Nirvana	</td></tr>
+<tr><td>	Polly	</td><td>	Nirvana	</td></tr>
+<tr><td>	Pony	</td><td>	Ginuwine	</td></tr>
+<tr><td>	Porcelain	</td><td>	Better than Ezra	</td></tr>
+<tr><td>	Possum Kingdom	</td><td>	The Toadies	</td></tr>
+<tr><td>	Post to Be	</td><td>	Omarion	</td></tr>
+<tr><td>	Ready to Go	</td><td>	Republica	</td></tr>
+<tr><td>	Rebel Rebel	</td><td>	David Bowie 	</td></tr>
+<tr><td>	Regulate	</td><td>	Warren G	</td></tr>
+<tr><td>	Ride Wit’ Me	</td><td>	Nelly	</td></tr>
+<tr><td>	Rock the Casbah	</td><td>	The Clash	</td></tr>
+<tr><td>	Roll With the Changes	</td><td>	REO Speedwagon	</td></tr>
+<tr><td>	Roses Chords	</td><td>	Outkast	</td></tr>
+<tr><td>	Round Here	</td><td>	Counting Crows	</td></tr>
+<tr><td>	Royals	</td><td>	Lorde	</td></tr>
+<tr><td>	Rude	</td><td>	MAGIC!	</td></tr>
+<tr><td>	Run Around	</td><td>	Blues Traveler	</td></tr>
+<tr><td>	Runaround Sue	</td><td>	Dion	</td></tr>
+<tr><td>	Runaway	</td><td>	Bon Jovi	</td></tr>
+<tr><td>	S.O.B	</td><td>	Nathaniel Rateliff & The Night Sweats	</td></tr>
+<tr><td>	Santeria	</td><td>	Sublime	</td></tr>
+<tr><td>	Sasquatch	</td><td>	Tenacious D	</td></tr>
+<tr><td>	Satellite	</td><td>	Dave Matthews Band	</td></tr>
+<tr><td>	Say it Ain't So	</td><td>	Weezer	</td></tr>
+<tr><td>	Schism	</td><td>	Tool	</td></tr>
+<tr><td>	Sex on Fire	</td><td>	Kings of Leon	</td></tr>
+<tr><td>	She's Always in my Hair	</td><td>	Prince	</td></tr>
+<tr><td>	Shout	</td><td>	Tears for Fears	</td></tr>
+<tr><td>	Shut Up and Dance	</td><td>	Walk the Moon	</td></tr>
+<tr><td>	Sister Christian	</td><td>	Night Ranger	</td></tr>
+<tr><td>	Sister Golden Hair	</td><td>	America	</td></tr>
+<tr><td>	Sledgehammer	</td><td>	Peter Gabriel	</td></tr>
+<tr><td>	So Fresh, So Clean	</td><td>	Outkast	</td></tr>
+<tr><td>	Solsbury Hill	</td><td>	Peter Gabriel	</td></tr>
+<tr><td>	Something in the Way	</td><td>	Nirvana	</td></tr>
+<tr><td>	Soul to Squeeze	</td><td>	Red Hot Chili Peppers	</td></tr>
+<tr><td>	Sour Times	</td><td>	Portishead	</td></tr>
+<tr><td>	Space Lord	</td><td>	Monster Magnet 	</td></tr>
+<tr><td>	Space Oddity	</td><td>	David Bowie	</td></tr>
+<tr><td>	Standing Outside a Broken Phone…	</td><td>	Primitive Radio Gods	</td></tr>
+<tr><td>	Straight Up	</td><td>	Paula Abdul	</td></tr>
+<tr><td>	Sunglasses at Night	</td><td>	Corey Hart	</td></tr>
+<tr><td>	Suspicious Minds	</td><td>	Elvis	</td></tr>
+<tr><td>	Sweet Caroline	</td><td>	Neil Diamond	</td></tr>
+<tr><td>	Sympathy for the Devil	</td><td>	The Rolling Stones	</td></tr>
+<tr><td>	Taxi	</td><td>	Harry Chapin 	</td></tr>
+<tr><td>	Tessie	</td><td>	Dropkick Murphys	</td></tr>
+<tr><td>	That's What I LIke	</td><td>	Bruno Mars 	</td></tr>
+<tr><td>	The Gambler	</td><td>	Kenny Rogers	</td></tr>
+<tr><td>	The Perfect Drug	</td><td>	NIN 	</td></tr>
+<tr><td>	The Power of Love	</td><td>	Huey Lewis & The News	</td></tr>
+<tr><td>	The Seed	</td><td>	The Roots	</td></tr>
+<tr><td>	The Wild Rover	</td><td>	Traditional	</td></tr>
+<tr><td>	This is How We Do It	</td><td>	Montel jordan	</td></tr>
+<tr><td>	To Be With You	</td><td>	Mr. Big	</td></tr>
+<tr><td>	Tonic	</td><td>	Open Up Your Eyes 	</td></tr>
+<tr><td>	Tonight Tonight	</td><td>	The Smashing Pumpkins	</td></tr>
+<tr><td>	Too Good	</td><td>	Drake 	</td></tr>
+<tr><td>	Train in Vain	</td><td>	The Clash	</td></tr>
+<tr><td>	Trap Queen	</td><td>	Fetty Wap	</td></tr>
+<tr><td>	Trapped	</td><td>	Bruce Springsteen 	</td></tr>
+<tr><td>	Tribute	</td><td>	Tenacious D	</td></tr>
+<tr><td>	Trippin’ on a Hole in a Paper Heart	</td><td>	Stone Temple Pilots	</td></tr>
+<tr><td>	True survivor	</td><td>	David Hasselhoff	</td></tr>
+<tr><td>	Two Tickets to Paradise	</td><td>	Eddy Money	</td></tr>
+<tr><td>	Under Pressure	</td><td>	Queen	</td></tr>
+<tr><td>	Unsteady	</td><td>	X Ambassadors	</td></tr>
+<tr><td>	Uptown Funk	</td><td>	Mark Ronson 	</td></tr>
+<tr><td>	Use Me	</td><td>	Bill Withers	</td></tr>
+<tr><td>	Vasoline	</td><td>	Stone Temple Pilots	</td></tr>
+<tr><td>	Vehicle	</td><td>	Ides of March	</td></tr>
+<tr><td>	Wagon Wheel	</td><td>	Old Crow Medicine Show	</td></tr>
+<tr><td>	Waiting in Vain	</td><td>	Bob Marley	</td></tr>
+<tr><td>	Wake Up	</td><td>	Rage Against the Machine	</td></tr>
+<tr><td>	War Pigs	</td><td>	Black Sabbath	</td></tr>
+<tr><td>	Welcome Home	</td><td>	Cohered & Cambria	</td></tr>
+<tr><td>	What I Got	</td><td>	Sublime	</td></tr>
+<tr><td>	What’s Up	</td><td>	4 Non Blondes	</td></tr>
+<tr><td>	When Doves Cry	</td><td>	Prince	</td></tr>
+<tr><td>	Where Did You Sleep Last Night	</td><td>	Nirvana	</td></tr>
+<tr><td>	White Wedding	</td><td>	Billy Idol	</td></tr>
+<tr><td>	Whole Lotta Love	</td><td>	Led Zepplin	</td></tr>
+<tr><td>	Why Can’t This Be Love	</td><td>	VanHalen	</td></tr>
+<tr><td>	Wild World	</td><td>	Cat Stevens	</td></tr>
+<tr><td>	Wish You Were Here	</td><td>	Pink Floyd	</td></tr>
+<tr><td>	Yesterday	</td><td>	The Beatles	</td></tr>
+<tr><td>	You Don't Know How it Feels	</td><td>	Tom Petty	</td></tr>
+<tr><td>	You Give Love a Bad Name	</td><td>	Bon Jovi	</td></tr>
+<tr><td>	You Make Me Wanna	</td><td>	Usher	</td></tr>
+<tr><td>	Your Love	</td><td>	The Outfield	</td></tr>
+<tr><td>	Zombie	</td><td>	Cranberries	</td></tr>
+</table>
+    </div></div>
+
+<script>
+function sortTable(n) {
+  var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
+  table = document.getElementById("myTable");
+  switching = true;
+  //Set the sorting direction to ascending:
+  dir = "asc"; 
+  /*Make a loop that will continue until
+  no switching has been done:*/
+  while (switching) {
+    //start by saying: no switching is done:
+    switching = false;
+    rows = table.getElementsByTagName("TR");
+    /*Loop through all table rows (except the
+    first, which contains table headers):*/
+    for (i = 1; i < (rows.length - 1); i++) {
+      //start by saying there should be no switching:
+      shouldSwitch = false;
+      /*Get the two elements you want to compare,
+      one from current row and one from the next:*/
+      x = rows[i].getElementsByTagName("TD")[n];
+      y = rows[i + 1].getElementsByTagName("TD")[n];
+      /*check if the two rows should switch place,
+      based on the direction, asc or desc:*/
+      if (dir == "asc") {
+        if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+          //if so, mark as a switch and break the loop:
+          shouldSwitch= true;
+          break;
+        }
+      } else if (dir == "desc") {
+        if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
+          //if so, mark as a switch and break the loop:
+          shouldSwitch= true;
+          break;
+        }
+      }
+    }
+    if (shouldSwitch) {
+      /*If a switch has been marked, make the switch
+      and mark that a switch has been done:*/
+      rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+      switching = true;
+      //Each time a switch is done, increase this count by 1:
+      switchcount ++;      
+    } else {
+      /*If no switching has been done AND the direction is "asc",
+      set the direction to "desc" and run the while loop again.*/
+      if (switchcount == 0 && dir == "asc") {
+        dir = "desc";
+        switching = true;
+      }
+    }
+  }
+}
+</script>
+
+</body>
+</html>
+
