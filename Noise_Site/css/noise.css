@@ -50,6 +50,7 @@ font-family:'Open Sans', sans-serif;
 }
     
     #logo {
+        visibility: hidden;
         position:fixed;
         top:10px;
         right:10px;
