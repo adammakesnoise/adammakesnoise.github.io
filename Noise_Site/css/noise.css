@@ -10,10 +10,10 @@ src: url(/fonts/badbe.ttf);
     @font-face
 {
 font-family: Code Light;
-src: url(/Noise_Site/fonts/codelight.otf) format ('opentype'),
-     url(/Noise_Site/fonts/codelight.ttf) format ('truetype'),
-     url(/Noise_Site/fonts/codelight.woff) format ('woff'),
-     url(/Noise_Site/fonts/codelight.woff2) format ('woff2');
+src: url('/Noise_Site/fonts/codelight.otf') format ('opentype'),
+     url('/Noise_Site/fonts/codelight.ttf') format ('truetype'),
+     url('/Noise_Site/fonts/codelight.woff') format ('woff'),
+     url('/Noise_Site/fonts/codelight.woff2') format ('woff2');
 }
 @font-face
 {
