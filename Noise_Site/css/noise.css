@@ -10,7 +10,10 @@ src: url(/fonts/badbe.ttf);
     @font-face
 {
 font-family: Code Light;
-src: url(/Noise_Site/fonts/codelight.otf);
+src: url(/Noise_Site/fonts/codelight.otf) format ('otf'),
+     url(/Noise_Site/fonts/codelight.ttf) format ('ttf'),
+     url(/Noise_Site/fonts/codelight.woff) format ('woff'),
+     url(/Noise_Site/fonts/codelight.woff2) format ('woff2');
 }
 @font-face
 {
@@ -33,21 +36,29 @@ font-family:'Open Sans', sans-serif;
    
 }
     
-    
-#content {
-    clear:both;
-    padding-top:40px;
-    padding-bottom:20px;
-    height:auto;
-    width:100%;
-    color:#000; 
-    box-sizing:border-box;
-
+    #bgimage {
+  background-image: url(/images/noisebg.jpg);
+  background-size: cover;
+  position: fixed;
+    display:block;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+    opacity:.2;
+    filter:contrast(400%);
 }
+    
+    #logo {
+        position:fixed;
+        top:10px;
+        right:10px;
+        width:40%;
+        }
 
     #menuboxes {
         position:relative;
-        top:-25%;
+        top:60%;
     }
     
     .menubox {
@@ -85,6 +96,8 @@ font-family:'Open Sans', sans-serif;
     }
     
     #socialmedia{
+        position:relative;
+        bottom:-70%;
         width:100%;
         padding-top:60px;
     }
@@ -104,25 +117,7 @@ font-family:'Open Sans', sans-serif;
         
 }
     
-#bgimage {
-  background-image: url(/images/noisebg.jpg);
-  background-size: cover;
-  position: relative;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 100%;
-  width: 100%;
-    opacity:.2;
-    filter:contrast(400%);
-}
-    
-    #logo {
-        visibility: visible;
-        position:fixed;
-        top:10px;
-        right:10px;
-        width:40%;
-        }
+
 
 
 
