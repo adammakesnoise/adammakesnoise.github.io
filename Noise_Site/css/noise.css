@@ -10,7 +10,7 @@ src: url(/fonts/badbe.ttf);
     @font-face
 {
 font-family: Code Light;
-src: url(/fonts/codelight.otf);
+src: url(/Noise_Site/fonts/codelight.otf);
 }
 @font-face
 {
@@ -47,7 +47,7 @@ font-family:'Open Sans', sans-serif;
 
     #menuboxes {
         position:relative;
-        top:-20%;
+        top:-25%;
     }
     
     .menubox {
