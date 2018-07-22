@@ -128,7 +128,7 @@ font-family:'Open Sans', sans-serif;
 
 } 
 
-/*---------- Small Screen Version ----------------------*/
+/*---------- Small Screen Version --------------------
 
 @media (max-width : 568px)
 { @charset "UTF-8";
@@ -258,3 +258,4 @@ font-family:'Open Sans', sans-serif;
 
 
 } 
+---*/
