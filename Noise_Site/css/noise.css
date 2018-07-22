@@ -1,6 +1,6 @@
 /*-------------------PHONE VERSION-------(hover:none;) and--------------*/
 
-@media all and (hover:none;) { @charset "UTF-8";
+@media (any-hover : none;) and (any-pointer : course;) { @charset "UTF-8";
 
 @font-face
 {
