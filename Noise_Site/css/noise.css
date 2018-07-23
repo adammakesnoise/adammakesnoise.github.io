@@ -5,12 +5,11 @@
 
     @font-face
 {
-font-family: 'Code Light';
-src: url('/Noise_Site/fonts/codelight.otf') format ('opentype'),
-     url('/Noise_Site/fonts/code_light.ttf') format ('truetype'),
+font-family: "Code Light";
+src: url('/Noise_Site/fonts/code_light.ttf') format ('truetype'),
      url('/Noise_Site/fonts/code_light.woff') format ('woff'),
      url('/Noise_Site/fonts/code_light.woff2') format ('woff2');
-     url('/Noise_Site/fonts/code_light.svg#code-light') format ('svg');
+     url('/Noise_Site/fonts/code_light.svg#code_lightregular') format ('svg');
 
     }
 
