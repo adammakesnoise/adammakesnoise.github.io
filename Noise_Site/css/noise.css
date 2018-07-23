@@ -1,31 +1,33 @@
-/*-------------------PHONE VERSION---------------------*/
+/*-------------------PHONE VERSION-------(hover:none;) and--------------*/
 
 @media (hover : none) { @charset "UTF-8";
 
 
     @font-face
 {
-font-family: 'Code-Light';
-src: url('/Noise_Site/fonts/codelight.otf') format ('truetype'),
-    url('/Noise_Site/fonts/code_light.ttf') format ('truetype'),
+font-family: 'Code Light';
+src: url('/Noise_Site/fonts/codelight.otf') format ('opentype'),
+     url('/Noise_Site/fonts/code_light.ttf') format ('truetype'),
      url('/Noise_Site/fonts/code_light.woff') format ('woff'),
      url('/Noise_Site/fonts/code_light.woff2') format ('woff2');
-         url('/Noise_Site/fonts/code_light.svg#code-light') format ('svg');
+     url('/Noise_Site/fonts/code_light.svg#code-light') format ('svg');
 
-}
+    }
 
-a:link {color:#fff; text-decoration:none; }
-a:visited {color:#fff; text-decoration:none;}
-a:active {color:#ccc; text-decoration:none; }
-a:hover {color:#fff; text-decoration:underline; }
-a:focus {color:#fff; text-decoration:none;}
+a:link {color:#fff; text-decoration:none; font-family:'Open Sans', sans-serif;}
+a:visited {color:#fff; text-decoration:none; font-family:'Open Sans', sans-serif;}
+a:active {color:#ccc; text-decoration:none; font-family:'Open Sans', sans-serif;}
+a:hover {color:#fff; text-decoration:none; font-family:'Open Sans', sans-serif;}
+a:focus {color:#fff; text-decoration:none; font-family:'Open Sans', sans-serif;}
 
 html, body {
     width:100%;
     background:rgb(000,000,000);
     color: #fff;
     margin:0px;
-    overflow:visible;   
+    overflow:visible;
+font-family:'Open Sans', sans-serif;
+   
 }
     
     #bgimage {
@@ -42,7 +44,7 @@ html, body {
 }
     
     #logo {
-        visibility: hidden;
+        visibility: visible;
         position:fixed;
         top:10px;
         right:10px;
