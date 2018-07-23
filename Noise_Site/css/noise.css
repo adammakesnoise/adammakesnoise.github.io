@@ -14,11 +14,11 @@ src: url('/Noise_Site/fonts/codelight.otf') format ('truetype'),
 
 }
 
-a:link {color:#fff; text-decoration:none; font-family:'Open Sans', sans-serif;}
-a:visited {color:#fff; text-decoration:none; font-family:'Open Sans', sans-serif;}
-a:active {color:#ccc; text-decoration:none; font-family:'Open Sans', sans-serif;}
-a:hover {color:#fff; text-decoration:none; font-family:'Open Sans', sans-serif;}
-a:focus {color:#fff; text-decoration:none; font-family:'Open Sans', sans-serif;}
+a:link {color:#fff; text-decoration:none; }
+a:visited {color:#fff; text-decoration:none;}
+a:active {color:#ccc; text-decoration:none; }
+a:hover {color:#fff; text-decoration:none; }
+a:focus {color:#fff; text-decoration:none;}
 
 html, body {
     width:100%;
