@@ -42,7 +42,7 @@ html, body {
 }
     
     #logo {
-        visibility: visible;
+        visibility: hidden;
         position:fixed;
         top:10px;
         right:10px;
