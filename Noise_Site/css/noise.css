@@ -2,14 +2,10 @@
 
 @media (hover : none) { @charset "UTF-8";
 
-@font-face
-{
-font-family: badbe;
-src: url(/fonts/badbe.ttf);
-}
+
     @font-face
 {
-font-family: Code Light;
+font-family: 'Code Light';
 src: url('/Noise_Site/fonts/codelight.otf') format ('opentype'),
      url('/Noise_Site/fonts/codelight.ttf') format ('truetype'),
      url('/Noise_Site/fonts/codelight.woff') format ('woff'),
