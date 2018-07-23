@@ -1,4 +1,4 @@
-/*-------------------PHONE VERSION-------(hover:none;) and--------------*/
+/*-------------------PHONE VERSION---------------------*/
 
 @media (hover : none) { @charset "UTF-8";
 
@@ -11,11 +11,7 @@ src: url('/Noise_Site/fonts/codelight.ttf') format ('truetype'),
      url('/Noise_Site/fonts/codelight.woff2') format ('woff2');
 }
 
-a:link {color:#fff; text-decoration:none; font-family:'Open Sans', sans-serif;}
-a:visited {color:#fff; text-decoration:none; font-family:'Open Sans', sans-serif;}
-a:active {color:#ccc; text-decoration:none; font-family:'Open Sans', sans-serif;}
-a:hover {color:#fff; text-decoration:none; font-family:'Open Sans', sans-serif;}
-a:focus {color:#fff; text-decoration:none; font-family:'Open Sans', sans-serif;}
+
 
 html, body {
     width:100%;
