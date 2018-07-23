@@ -15,11 +15,7 @@ src: url('/Noise_Site/fonts/codelight.otf') format ('opentype'),
      url('/Noise_Site/fonts/codelight.woff') format ('woff'),
      url('/Noise_Site/fonts/codelight.woff2') format ('woff2');
 }
-@font-face
-{
-font-family: grapat;
-src: url(/fonts/grapat.ttf);
-}
+
 a:link {color:#fff; text-decoration:none; font-family:'Open Sans', sans-serif;}
 a:visited {color:#fff; text-decoration:none; font-family:'Open Sans', sans-serif;}
 a:active {color:#ccc; text-decoration:none; font-family:'Open Sans', sans-serif;}
