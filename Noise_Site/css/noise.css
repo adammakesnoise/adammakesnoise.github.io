@@ -17,7 +17,7 @@ src: url('/Noise_Site/fonts/codelight.otf') format ('truetype'),
 a:link {color:#fff; text-decoration:none; }
 a:visited {color:#fff; text-decoration:none;}
 a:active {color:#ccc; text-decoration:none; }
-a:hover {color:#fff; text-decoration:none; }
+a:hover {color:#fff; text-decoration:underline; }
 a:focus {color:#fff; text-decoration:none;}
 
 html, body {
