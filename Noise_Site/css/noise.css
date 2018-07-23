@@ -25,12 +25,10 @@ html, body {
     color: #fff;
     margin:0px;
     overflow:visible;
-font-family:'Open Sans', sans-serif;
-   
 }
     
     #bgimage {
-  background-image: url(/images/noisebg.jpg);
+  background-image: url(/Noise_Site/images/noisebg.jpg);
   background-size: cover;
   position: fixed;
     display:block;
