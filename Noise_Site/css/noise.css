@@ -31,7 +31,7 @@ html, body {
     background:rgb(000,000,000);
     color: #fff;
     margin:0px;
-    overflow:auto;
+    overflow:visible;
 font-family:'Open Sans', sans-serif;
    
 }
@@ -50,16 +50,27 @@ font-family:'Open Sans', sans-serif;
 }
     
     #logo {
-        visibility: hidden;
+        visibility: visible;
         position:fixed;
         top:10px;
         right:10px;
         width:40%;
         }
 
+    #flavortext{
+        font-size: 28px;
+        text-align: center;
+        font-family: 'Avenir';
+        position:relative;
+        top:21%;
+        width: 90%;
+        margin-left: 5%;
+        
+    }
+    
     #menuboxes {
         position:relative;
-        top:60%;
+        top:50%;
     }
     
     .menubox {
@@ -98,7 +109,7 @@ font-family:'Open Sans', sans-serif;
     
     #socialmedia{
         position:relative;
-        bottom:-70%;
+        bottom:-55%;
         width:100%;
         padding-top:60px;
     }
