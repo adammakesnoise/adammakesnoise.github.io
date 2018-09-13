@@ -1,27 +1,58 @@
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="css/noise.css"/>
+<head>
+    <link rel="stylesheet" type="text/css" href="/css/noise.css"/>
           <title>Adam Makes Noise - Live Music from the Boston Area</title>
-    </head>
-<body>
+</head>
+   
+
+    
+    <body>
     <div id="bgimage"></div>
-    <img id="logo" src="/Noise_Site/images/noiselogo.png" alt="Adam Makes Noise"></img>
+    <img id="logo" src="/images/noiselogo.png" alt="Adam Makes Noise"></img>
     <div id="flavortext">All the hits you know, love, <i>and</i> some you forgot about. I got 60's to Current. I got Hip hop. I got Metal. I got what you need.
-        <br><br>Are you ready for the Noise?</div>
-    <div id="menuboxes">
-    <div class="menubox" id="box1"><a href="/shows.html">Shows</a></div>
-    <div class="menubox" id="box2"><a href="/music.html">Music</a></div>
-    <div class="menubox" id="box3"><a href="/contact.html">Contact</a></div>
+     </div>
 
+<div id="menu">
+<button class="collapsible" id="menubox1">Shows</button>
+<div class="content">
+<div data-tockify-component="calendar" data-tockify-calendar="adammakesnoise"></div>
+<script data-cfasync="false" data-tockify-script="embed" src="https://public.tockify.com/browser/embed.js"></script>
+</div>
+<button class="collapsible" id="menubox2">Music</button>
+<div class="content">
+ <iframe width="100%" height="350" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/48376823&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=false"></iframe>
+
+</div>
+<button class="collapsible" id="menubox3">Contact</button>
+<div class="content" id="mb3content">
+<a href="mailto:adammakesnoise@icloud.com">adammakesnoise@icloud.com</a> 
+</div>
     </div>
-
-<div id="socialmedia">
+    <div id="socialmedia">
     <div id="socialwrapper">
     <a href="facebook.html"><img src="images/facebook.png"></img></a>
     <a href="twitter.html"><img src="images/twitter.png"></img></a>
     <a href="insta.html"><img src="images/instagram.png"></img></a>
     <a href="youtube.html"><img src="images/youtube.png"></img></a>
     </div>
-</div>
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
 </body>
 </html>
+
