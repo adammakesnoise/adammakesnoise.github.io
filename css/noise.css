@@ -53,14 +53,13 @@ html, body {
   cursor: pointer;
   padding: 18px;
   width: 100%;
- 
-     min-height:100px;
   border: none;
   outline: none;
 }
 
 #menubox1 {
     background-color:rgb(43,78,96);  
+     height:200px;
     
 }
 
