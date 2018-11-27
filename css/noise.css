@@ -38,10 +38,11 @@ html, body {
     
     #logo {
         visibility: visible;
-        position:fixed;
+        position:relative;
         top:10px;
         right:10px;
-        height:12%;
+        width:80%;
+        margin-left:10%;
         }
 
 .collapsible {
@@ -77,7 +78,7 @@ html, body {
 
 #menu{
     Position:relative;
-    top:20%;
+    top:10%;
 }
 
   #flavortext{
@@ -85,7 +86,7 @@ html, body {
         text-align: center;
         font-family: 'Avenir';
         position:relative;
-        top:15%;
+        top:5%;
         width: 90%;
         margin-left: 5%;
         
@@ -115,7 +116,7 @@ html, body {
     
     #socialwrapper{
         position:relative;
-        top:35%;
+        top:15%;
     text-align: center;
         width:100%;
         
